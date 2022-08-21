@@ -104,7 +104,7 @@ function getCategoryAll() {
     }
 }
 
-setTimeout(() => getCategoryAll(), 1000);
+setTimeout(() => getCategoryAll(), 1600);
 
 /** Fill the HTML table#jeopardy with the categories & cells for questions.
  *
@@ -160,7 +160,7 @@ async function fillTable() {
     body.prepend(table);
 }
 
-setTimeout(() => fillTable(), 1500);
+setTimeout(() => fillTable(), 1700);
 
 /** Handle clicking on a clue: show the question or answer.
  *
